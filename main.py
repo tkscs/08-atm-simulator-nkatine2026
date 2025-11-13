@@ -16,4 +16,17 @@ Options:
 
 # start with 1 million dollars
 balance = 1000000
-
+while True: 
+    Trumpcoin_AI = input("What shall you do with your money inferior Illegal Immigrant?")
+    if Trumpcoin_AI == "withdraw":
+        q = int(input(f"How much would you like to withdraw(and give to my inagural fund)?"))
+        balance = (balance-q)
+        print(f"You now have {balance}, Congratulations low iq person")
+    elif Trumpcoin_AI == "check":
+        print(f"you have {balance} in your account, soon I will give it and China 145% tariffs!")
+    elif Trumpcoin_AI == "add":
+        v = int(input("How much would you like to add Sleepy Joe?"))
+        balance = v + balance 
+        print(f"You now have {balance}, Congratulations low iq person")
+    else:
+        print("failure Government shutting down")
